@@ -35,3 +35,7 @@ ALTER TABLE  blog MODIFY COLUMN id BIGINT NOT NULL AUTO_INCREMENT primary key
   "editor.fontLigatures": true,
   "workbench.colorTheme": "Arc Dark"
 }
+
+
+#download database with cmd from xampp server
+https://stackoverflow.com/questions/3031412/how-to-export-a-mysql-database-using-command-prompt
