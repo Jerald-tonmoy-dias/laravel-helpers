@@ -39,3 +39,7 @@ ALTER TABLE  blog MODIFY COLUMN id BIGINT NOT NULL AUTO_INCREMENT primary key
 
 #download database with cmd from xampp server
 https://stackoverflow.com/questions/3031412/how-to-export-a-mysql-database-using-command-prompt
+
+
+#reset old git user and add new one
+https://www.folkstalk.com/tech/remove-git-user-name-with-code-examples/
