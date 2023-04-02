@@ -1,5 +1,16 @@
 # laravel-helpers
 
+#server PHP artisan issues fixed
+    Artisan::call('migrate:fresh',array(
+        '--path'=>'database/migrations',
+        '--force'=>true
+        ));
+     Artisan::call('db:seed', array_filter([
+                '--class' => 'Database\\Seeders\\DatabaseSeeder',
+                '--force' => true,
+            ]));
+
+
 #for broken table 
 ALTER TABLE  blog MODIFY COLUMN id BIGINT NOT NULL AUTO_INCREMENT primary key
 
